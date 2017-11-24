@@ -1,0 +1,135 @@
+.login-wrap{
+      width:100%;
+      height:100%;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .top_head{
+      width:100%;
+      height:80px;
+      display:flex;
+      flex-direction: row;
+      border-bottom:1px solid #ccc;
+      box-sizing:border-box;
+    }
+    .top_head img{
+      width:80px;
+      height:80px;
+      display:block;
+      border:0px;
+    }
+    .top_head .top_head_box{
+      flex-grow: 1;
+      line-height:80px;
+      padding-left:30px ;
+      font-size:20px;
+    }
+
+    .login_box{
+      position:absolute;
+      top:100px;
+      bottom:100px;
+      width:100%;
+      overflow:hidden;
+    }
+    .login_box .box{
+      background:#fff;
+      width:400px;
+      height:290px;
+      float:right;
+      margin-top:60px;
+      margin-right:80px;
+      border:1px solid #ccc;
+      box-sizing:border-box;
+      padding:20px;
+    }
+    .el-form-item{
+      margin-top:30px;
+    }
+    #vCode{
+      width:65%;
+    }
+    .vCode_btn{
+      float:right;
+    }
+    .login-btn{
+      margin-top:30px;
+    }
+    .el-tabs__nav{
+      width:100%;
+      box-sizing:border-box;
+    }
+    .el-form-item{
+      margin-top:15px;
+    }
+    
+    .el-tabs__item{
+      padding:0;
+      width:50%;
+      text-align:center;
+      margin:0px!important;
+    }
+
+    .top_boom{
+      width:100%;
+      height:80px;
+      position:absolute;
+      bottom:0px;
+      display:flex;
+      flex-direction:row;
+      border-top:1px solid #ccc;
+      box-sizing:border-box;
+    }
+    .top_boom div{
+      border-right:1px solid #ccc;
+    }
+    
+    .top_boom .one_boom_div{
+      width:160px;
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+    }
+    .top_boom .one_boom_div p{
+      display:block;
+      height:40px;
+      width:160px;
+      border-bottom:1px solid #ccc;
+      box-sizing:border-box; 
+      line-height:40px;
+      text-align:center;
+    }
+    .top_boom .one_boom_div p:nth-child(2){
+      border:0px; 
+    }
+    .top_boom .two_boom_div{
+      flex-grow: 1;
+      line-height:80px;
+      margin-left:40px;
+    }
+    .top_boom img{
+      width:80px;
+      height:80px;
+      display:block;
+      border:0px;
+    }
+    
+    .login-btn{
+        text-align: center;
+    }
+    .login-btn button{
+        width:100%;
+        height:36px;
+    }
+
+
+
+    .iconfont{
+      font-family: 'iconfont';  /* project id 126519 */
+      src: url('//at.alicdn.com/t/font_126519_7gk94bcdrqsn61or.eot');
+      src: url('//at.alicdn.com/t/font_126519_7gk94bcdrqsn61or.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_126519_7gk94bcdrqsn61or.woff') format('woff'),
+      url('//at.alicdn.com/t/font_126519_7gk94bcdrqsn61or.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_126519_7gk94bcdrqsn61or.svg#iconfont') format('svg');
+    }
